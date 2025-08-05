@@ -1,10 +1,13 @@
 import './TextField.css';
 
 const TextField = (props) => {
+
+    const concatPlaceholder = props.placeholder + '...';
+
     return (
         <div className="text-field">
             <label>{props.label}</label>
-            <input  placeholder={props.placeholder}/>
+            <input  placeholder={concatPlaceholder}/>
         </div>
     )
 }
