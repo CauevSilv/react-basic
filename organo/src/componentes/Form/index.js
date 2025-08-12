@@ -19,7 +19,7 @@ const Form = () => {
                 <TextField label="Name" placeholder="Text your name"/>
                 <TextField label="Position" placeholder="Text your position"/>
                 <TextField label="Image" placeholder="Load a image"/>
-                <SelectList itens={times}/>
+                <SelectList label="Time" itens={times}/>
             </form>
         </section>
     )

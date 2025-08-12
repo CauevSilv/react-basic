@@ -4,6 +4,12 @@
     margin: 80px 0;
 }
 
+.form label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
 .form form {
     width: 80%;
     padding: 36px 64px;
