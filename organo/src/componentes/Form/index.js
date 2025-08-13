@@ -1,7 +1,7 @@
 import './Form.css';
 import TextField from '../TextField';
 import SelectList from '../SelectList';
-import Button from '../Button';
+import Botao from '../Botao';
 
 const Form = () => {
     const times = [
@@ -21,9 +21,9 @@ const Form = () => {
                 <TextField label="Position" placeholder="Text your position"/>
                 <TextField label="Image" placeholder="Load a image"/>
                 <SelectList label="Time" itens={times}/>
-                <Button>
+                <Botao>
                     Create Card
-                </Button>
+                </Botao>
             </form>
         </section>
     )
