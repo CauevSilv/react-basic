@@ -13,9 +13,16 @@ const Form = () => {
         'Mobile',
         'Innovation and Management'
     ];
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log('Form submitted');
+    };
+
+
     return (
         <section className="form">
-            <form>
+            <form onSubmit={handleSubmit}>
                 <h2>Fill in the details to create a card</h2>
                 <TextField label="Name" placeholder="Text your name"/>
                 <TextField label="Position" placeholder="Text your position"/>
